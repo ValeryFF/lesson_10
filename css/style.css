@@ -1,0 +1,211 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+
+
+.header {
+	margin: 0px 0px 0px 0px;
+}
+
+.header__container {
+	max-width: 846px;
+	margin: 0 auto;
+}
+
+.header__title {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+
+	margin: 0px 0px 10px 0px;
+}
+
+.header__subtitle {
+	font-weight: 500;
+	font-weight: 500;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+}
+
+.header__subtitle-bf::after {
+	content: "";
+	display: inline-block;
+	width: 30%;
+	border: 1px solid #e4e4e4;
+	margin: 15px 0px 0px 295px;
+}
+
+.page {
+	margin: 0px 0px 100px 0px;
+}
+
+.whoweare {
+	font-family:"Roboto", sans-serif;
+	margin: 50px 0px 150px 0px;
+}
+
+.container {
+	max-width: 846px;
+	margin: 0 auto;
+}
+
+/* .whoweare__hed  */
+
+.whoweare__logo {
+	margin: 0px 0px 33px 0px;
+}
+
+.logo__img {
+	display: inline-block;
+	width: 27px;
+	height: 26px;
+}
+
+.logo__title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 2.5px;
+	color: #4B4B4B;
+}
+
+.whoweare__title {
+	display: inline-block;
+	max-width: 583px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	margin: 0px 0px 31px 0px;
+}
+
+.whoweare__description-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+
+	margin: 0px 0px 54px 0px;
+}
+
+/* .whoweare__photo 
+
+.photo__img */
+
+/*==== promise background ===================================================*/
+.promise {
+	font-family: "Roboto", sans-serif;
+}
+
+.promise__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	border: 2px solid #e4e4e4;
+}
+/*==== promise__hed ===============================*/
+.promise__hed {
+	font-size: 0;
+	margin: 0px 0px 68px 0px;
+}
+
+.promise__logo-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 28px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4B4B4B;
+	margin: 0px 0px 33px 33px;
+}
+
+.promise__hed-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	margin: 0px 0px 0px 5px;
+}
+
+.promise__hed-1 {
+	background: url("../img/icon/overline_mark.png") 0 0 no-repeat;
+}
+
+/*==== items ================================*/
+.promise__items {
+	font-size: 0;
+}
+
+.promise__item {
+	max-width: 32%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 20px 0px 0px;
+}
+
+.promise__item:nth-child(3) {
+	margin: 0px 0px 0px 0px;
+}
+
+
+.promise__item-title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #02133C;
+	margin: 0px 0px 20px 86px;
+}
+
+.promise__item-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin: 0px 0px 0px 86px;
+}
+
+.promise__item-1 {
+	background: url("../img/icon/car_quality_service.png") 10px 0 no-repeat;
+}
+
+.promise__item-2 {
+	background: url("../img/icon/car_certified_pros.png") 10px 0 no-repeat;
+}
+
+.promise__item-3 {
+	background: url("../img/icon/car_team.png") 10px 0 no-repeat;
+}
+
+/*==== footer ======================================*/
+.footer {
+	background-color: #e4e4e4;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.footer__img {
+	display: inline-block;
+	margin: 0px 0px 0px 50px;
+}
+
+.footer__title {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	margin: 0px 0px 0px 50px;
+}
+
+

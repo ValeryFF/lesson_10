@@ -1,0 +1,20 @@
+/* &display=swap &subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url('../fonts/WorkSans-SemiBold.woff2') format('woff2'),
+			 url('../fonts/WorkSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url('../fonts/WorkSans-MediumItalic.woff2') format('woff2'),
+			 url('../fonts/WorkSans-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
